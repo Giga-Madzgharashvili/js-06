@@ -54,12 +54,19 @@
 .data-title{
     margin-bottom: 10px;
 }
-.data-title, .data-p{
+ .data-p{
     font-size: 24px;
     width: 170px;
     height: 30px;
     background: lightblue;
     text-align: center;
     padding: 15px;
+}
+.data-title {
+    font-size: 24px;
+    width: 170px;
+    height: 30px;
+    text-align: center;
+    padding: 15px; 
 }
 

@@ -25,6 +25,7 @@ function getData(){
             li.classList.add("data-li");
             let div = document.createElement("div");
             div.classList.add("data-title");
+            div.style.background = element.color;
             div.textContent = element.name ;
             let p = document.createElement("p");
             p.classList.add("data-p");
