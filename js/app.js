@@ -13,7 +13,7 @@ function getData(){
             li.classList.add("app-li");
             let p = document.createElement("p");
             p.classList.add("title");
-            p.textContent = element.first_name ;
+            p.textContent = `Name ${element.first_name}` ;
             let img = document.createElement("img");
             img.setAttribute("src", element.avatar);
             img.classList.add("images");
