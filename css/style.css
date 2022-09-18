@@ -57,6 +57,7 @@
 .data-title, .data-p{
     font-size: 24px;
     width: 170px;
+    height: 30px;
     background: lightblue;
     text-align: center;
     padding: 15px;
