@@ -36,4 +36,4 @@ const site2 = sites.site2.returnSiteData();
  }
 
  getData(site1);
-//  getData(site2);
+ getData(site2);
