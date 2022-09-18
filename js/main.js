@@ -25,7 +25,7 @@ function getData(){
             li.classList.add("data-li");
             let div = document.createElement("div");
             div.classList.add("data-title");
-            div.textContent = `${element.name}` ;
+            div.textContent = element.name ;
             let p = document.createElement("p");
             p.classList.add("data-p");
             p.textContent =`${element.year} Year`;
